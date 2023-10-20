@@ -7,6 +7,6 @@ import { GithubAuthProvider, signInWithPopup } from "@firebase/auth";
 const BotonGitHub = () => {
     const Provider = new GithubAuthProvider();
     const IniciarConGitHub = () => {
-        
+        signInWithPopup(auth, Provider)
     }
 }
