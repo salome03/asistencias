@@ -5,5 +5,5 @@ import { auth } from "../fireBase-config";
 import { GoogleAuthProvider, signInWithPopup } from "@firebase/auth";
 
 const BotonGoogle = () => {
-    
+    const Provider = new GoogleAuthProvider();
 }
