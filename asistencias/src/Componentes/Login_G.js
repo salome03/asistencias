@@ -11,5 +11,8 @@ const BotonGoogle = () => {
         .then((result) => {
             alert("Logeado correctamente");
         })
+        .catch((error) => {
+            
+        })
     }
 }
