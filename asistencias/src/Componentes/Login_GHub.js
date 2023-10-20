@@ -11,5 +11,8 @@ const BotonGitHub = () => {
         .then((result) => {
             alert("Logeado correctamente");
         })
+        .catch((error) => {
+            
+        })
     }
 }
