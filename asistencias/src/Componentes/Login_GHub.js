@@ -9,7 +9,7 @@ const BotonGitHub = () => {
     const IniciarConGitHub = () => {
         signInWithPopup(auth, Provider)
         .then((result) => {
-            
+            alert("Logeado correctamente");
         })
     }
 }
