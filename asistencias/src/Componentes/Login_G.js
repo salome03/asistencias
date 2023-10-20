@@ -9,7 +9,7 @@ const BotonGoogle = () => {
     const IniciarConGoogle = () => {
         signInWithPopup(auth, Provider)
         .then((result) => {
-            
+            alert("Logeado correctamente");
         })
     }
 }
