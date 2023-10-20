@@ -17,7 +17,7 @@ const BotonGoogle = () => {
     }
     return(
         <div className="boton-google">
-            
+            <button onClick={IniciarConGoogle}><img src={Google}></img>Continuar con Google</button>
         </div>
     )
 }
