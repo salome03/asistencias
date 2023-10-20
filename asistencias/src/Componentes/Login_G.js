@@ -16,6 +16,8 @@ const BotonGoogle = () => {
         })
     }
     return(
-        
+        <div className="boton-google">
+            
+        </div>
     )
 }
