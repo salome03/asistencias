@@ -8,5 +8,8 @@ const BotonGoogle = () => {
     const Provider = new GoogleAuthProvider();
     const IniciarConGoogle = () => {
         signInWithPopup(auth, Provider)
+        .then((result) => {
+            
+        })
     }
 }
