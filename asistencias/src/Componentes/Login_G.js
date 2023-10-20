@@ -7,6 +7,6 @@ import { GoogleAuthProvider, signInWithPopup } from "@firebase/auth";
 const BotonGoogle = () => {
     const Provider = new GoogleAuthProvider();
     const IniciarConGoogle = () => {
-        
+        signInWithPopup(auth, Provider)
     }
 }
