@@ -8,5 +8,8 @@ const BotonGitHub = () => {
     const Provider = new GithubAuthProvider();
     const IniciarConGitHub = () => {
         signInWithPopup(auth, Provider)
+        .then((result) => {
+            
+        })
     }
 }
