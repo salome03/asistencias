@@ -16,6 +16,8 @@ const BotonGitHub = () => {
         })
     }
     return(
-        
+        <div className="boton-github">
+            
+        </div>     
     )
 }
