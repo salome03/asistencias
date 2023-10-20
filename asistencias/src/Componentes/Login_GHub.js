@@ -12,7 +12,7 @@ const BotonGitHub = () => {
             alert("Logeado correctamente");
         })
         .catch((error) => {
-            
+            console.log(error);
         })
     }
 }
