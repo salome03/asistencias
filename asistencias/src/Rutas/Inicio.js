@@ -10,6 +10,6 @@ const Login = () => {
     const [password, setPassword] = useState('');
 
     const Datos = (e) => {
-        
+        e.preventDefault();
     }
 }
