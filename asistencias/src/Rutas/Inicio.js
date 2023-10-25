@@ -17,7 +17,7 @@ const Login = () => {
             alert("Logeado correctamente");
         })
         .catch((error) => {
-            
-        }
+            console.log(error.code);
+        })
     }
 }
