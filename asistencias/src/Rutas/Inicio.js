@@ -6,6 +6,7 @@ import BotonGitHub from "../Componentes/Login_GHub";
 import BotonAnonimo from "../Componentes/Login_A";
 
 const Login = () => {
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -25,8 +26,10 @@ const Login = () => {
                 if(error.code === 'auth/user-not-found'){
                     alert("El usuario no está registrado")
                 }
-                if(error.code === 'auth/wrong-password'){
-                    
+                else{
+                    if(error.code === 'auth/wrong-password'){
+                        
+                    }
                 }
             } 
         })
