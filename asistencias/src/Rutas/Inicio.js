@@ -19,7 +19,7 @@ const Login = () => {
         .catch((error) => {
             console.log(error.code);
             if(error.code === 'auth/invalid-email'){
-                
+                alert("Ingrese un correo electrónico válido");
             }
         })
     }
