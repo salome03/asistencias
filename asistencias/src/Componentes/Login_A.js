@@ -10,7 +10,7 @@ const BotonAnonimo = () => {
             alert("Ingresó correctamente");
         })
         .catch((error) => {
-            
+            console.log(error);
         })
     }
 }
