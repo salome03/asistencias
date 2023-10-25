@@ -17,7 +17,7 @@ const Registro = () => {
             alert("Registrado correctamente");
         })
         .catch((error) => {
-            
+            console.log(error);
         })
     }
 }
