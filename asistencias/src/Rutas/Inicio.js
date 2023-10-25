@@ -45,7 +45,7 @@ const Login = () => {
              <input id="enviar" type="submit" value="Acceder"></input>
              </form>
              <div className="botones">
-                
+                <BotonGoogle/>
              </div>
         </div>
     )
