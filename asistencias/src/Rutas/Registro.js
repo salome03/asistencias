@@ -16,5 +16,8 @@ const Registro = () => {
             console.log(userCredential);
             alert("Registrado correctamente");
         })
+        .catch((error) => {
+            
+        })
     }
 }
