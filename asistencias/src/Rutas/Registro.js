@@ -8,8 +8,8 @@ const Registro = () => {
     const [email, setEmail] = useState('');
     const [usuario, setUsuario] = useState('');
     const [password, setPassword] = useState('');
-    
-    const Datos = (e) => {
 
+    const Datos = (e) => {
+        e.preventDefault();
     }
 }
