@@ -7,7 +7,7 @@ const BotonAnonimo = () => {
     const IniciarAnonimo = () => {
         signInAnonymously(auth)
         .then((result) => {
-            
+            alert("Ingresó correctamente");
         })
     }
 }
