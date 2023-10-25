@@ -6,5 +6,5 @@ import BotonGitHub from "../Componentes/Login_GHub";
 import BotonAnonimo from "../Componentes/Login_A";
 
 const Login = () => {
-    
+    const [email, setEmail] = useState('');
 }
