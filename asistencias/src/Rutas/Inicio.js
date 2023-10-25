@@ -22,7 +22,9 @@ const Login = () => {
                 alert("Ingrese un correo electrónico válido");
             }
             else{
-                
+                if(error.code === 'auth/user-not-found'){
+                    
+                }
             } 
         })
     }
