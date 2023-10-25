@@ -14,6 +14,8 @@ const BotonAnonimo = () => {
         })
     }
     return(
-        
+        <div className="boton-anonimo">
+            
+        </div>
     )
 }
