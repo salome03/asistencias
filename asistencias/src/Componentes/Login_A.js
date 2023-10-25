@@ -4,5 +4,7 @@ import { auth } from "../fireBase-config";
 import { signInAnonymously } from "firebase/auth";
 
 const BotonAnonimo = () => {
-    
+    const IniciarAnonimo = () => {
+        
+    }
 }
