@@ -12,7 +12,8 @@ const Registro = () => {
     const Datos = (e) => {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, usuario, password)
-        .then((userCredential) => {}
-        )
+        .then((userCredential) => {
+            console.log(userCredential);
+        })
     }
 }
