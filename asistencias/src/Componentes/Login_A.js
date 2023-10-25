@@ -13,4 +13,7 @@ const BotonAnonimo = () => {
             console.log(error);
         })
     }
+    return(
+        
+    )
 }
