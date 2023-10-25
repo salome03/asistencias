@@ -7,4 +7,5 @@ const Registro = () => {
 
     const [email, setEmail] = useState('');
     const [usuario, setUsuario] = useState('');
+    const [password, setPassword] = useState('');
 }
