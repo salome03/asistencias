@@ -43,8 +43,10 @@ const Login = () => {
              <label for="pass">Contraseña</label>
              <input id="pass" type="password" onChange={(e) => setPassword(e.target.value)}></input>
              <input id="enviar" type="submit" value="Acceder"></input>
-             
              </form>
+             <div className="botones">
+                
+             </div>
         </div>
     )
 }
