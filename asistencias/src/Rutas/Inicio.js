@@ -46,6 +46,7 @@ const Login = () => {
              </form>
              <div className="botones">
                 <BotonGoogle/>
+                <BotonGitHub/>
              </div>
         </div>
     )
