@@ -37,7 +37,9 @@ const Login = () => {
     }
     return(
         <div className="form">
-            
+             <form onSubmit={Datos}>
+                
+             </form>
         </div>
     )
 }
