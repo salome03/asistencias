@@ -9,5 +9,8 @@ const BotonAnonimo = () => {
         .then((result) => {
             alert("Ingresó correctamente");
         })
+        .catch((error) => {
+            
+        })
     }
 }
