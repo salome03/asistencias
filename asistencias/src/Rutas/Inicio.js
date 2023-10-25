@@ -16,5 +16,8 @@ const Login = () => {
             console.log(userCredential);
             alert("Logeado correctamente");
         })
+        .catch((error) => {
+            
+        }
     }
 }
