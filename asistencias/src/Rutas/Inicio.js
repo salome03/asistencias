@@ -28,8 +28,9 @@ const Login = () => {
                 }
                 else{
                     if(error.code === 'auth/wrong-password'){
-                        
+                        alert("La contraseña es incorrecta");
                     }
+                    
                 }
             } 
         })
