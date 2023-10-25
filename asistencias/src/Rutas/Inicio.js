@@ -23,7 +23,7 @@ const Login = () => {
             }
             else{
                 if(error.code === 'auth/user-not-found'){
-                    
+                    alert("El usuario no está registrado")
                 }
             } 
         })
