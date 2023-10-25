@@ -7,4 +7,5 @@ import BotonAnonimo from "../Componentes/Login_A";
 
 const Login = () => {
     const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 }
