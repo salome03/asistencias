@@ -40,6 +40,7 @@ const Login = () => {
              <form onSubmit={Datos}>
              <label for="correo">Correo electrónico</label>
              <input id="correo" type="text" onChange={(e) => setEmail(e.target.value)}></input>
+             <label for="pass">Contraseña</label>
              
              </form>
         </div>
