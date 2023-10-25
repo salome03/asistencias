@@ -12,6 +12,8 @@ const Login = () => {
     const Datos = (e) => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
-        
+        .then((userCredential) => {
+            
+        })
     }
 }
