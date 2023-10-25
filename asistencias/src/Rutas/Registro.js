@@ -14,6 +14,7 @@ const Registro = () => {
         createUserWithEmailAndPassword(auth, email, usuario, password)
         .then((userCredential) => {
             console.log(userCredential);
+            alert("Registrado correctamente");
         })
     }
 }
