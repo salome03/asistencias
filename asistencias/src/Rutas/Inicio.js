@@ -18,6 +18,9 @@ const Login = () => {
         })
         .catch((error) => {
             console.log(error.code);
+            if(error.code === 'auth/invalid-email'){
+                
+            }
         })
     }
 }
