@@ -4,5 +4,6 @@ import { auth } from "../fireBase-config";
 import { createUserWithEmailAndPassword } from "@firebase/auth";
 
 const Registro = () => {
-    
+
+    const [email, setEmail] = useState('');
 }
