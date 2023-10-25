@@ -39,6 +39,8 @@ const Login = () => {
         <div className="form">
              <form onSubmit={Datos}>
              <label for="correo">Correo electrónico</label>
+             <input id="correo" type="text" onChange={(e) => setEmail(e.target.value)}></input>
+             
              </form>
         </div>
     )
