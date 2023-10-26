@@ -7,5 +7,5 @@
     transition: all 1s ease;
 }
 .logo img:hover{
-    
+    transform: scale(1.05);
 }
