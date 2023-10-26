@@ -33,6 +33,8 @@ const Registro = () => {
              <label for="correo">Correo electrónico</label>
              <input id="correo" type="text" value={email} onChange={(e) => setEmail(e.target.value)}></input>
              <label for="usuario">Nombre de usuario</label>
+             <input id="usuario" type="text" value={usuario} onChange={(e) => setUsuario(e.target.value)}></input>
+             
              </form>
         </div>
     )
