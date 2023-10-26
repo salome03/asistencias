@@ -10,6 +10,7 @@ function App() {
         <div>
              <LogoApp/>
              <BrowserRouter>
+             <NavLink to='/login'><BotonLogin texto='Iniciar sesión'/></NavLink>
              </BrowserRouter>
         </div>
         
