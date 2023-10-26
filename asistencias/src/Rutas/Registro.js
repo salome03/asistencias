@@ -35,6 +35,8 @@ const Registro = () => {
              <label for="usuario">Nombre de usuario</label>
              <input id="usuario" type="text" value={usuario} onChange={(e) => setUsuario(e.target.value)}></input>
              <label for="pass">Contraseña</label>
+             <input id="pass" type="password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
+             
              </form>
         </div>
     )
