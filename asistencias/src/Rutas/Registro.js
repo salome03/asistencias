@@ -32,7 +32,7 @@ const Registro = () => {
              <form onSubmit={Datos}>
              <label for="correo">Correo electrónico</label>
              <input id="correo" type="text" value={email} onChange={(e) => setEmail(e.target.value)}></input>
-             
+             <label for="usuario">Nombre de usuario</label>
              </form>
         </div>
     )
