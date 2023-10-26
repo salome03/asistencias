@@ -8,3 +8,4 @@ const BotonLogin = (props) => {
         </div>
     )
 }
+export default BotonLogin;
