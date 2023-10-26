@@ -21,3 +21,4 @@ const BotonGoogle = () => {
         </div>
     )
 }
+export default BotonGoogle;

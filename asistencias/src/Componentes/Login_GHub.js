@@ -21,3 +21,4 @@ const BotonGitHub = () => {
         </div>     
     )
 }
+export default BotonGitHub;

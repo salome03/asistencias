@@ -19,3 +19,4 @@ const BotonAnonimo = () => {
         </div>
     )
 }
+export default BotonAnonimo;
