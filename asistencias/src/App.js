@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import LogoApp from './Componentes/Logo_App';
 import BotonLogin from './Componentes/Login';
+import Registro from './Rutas/Registro';
 
 function App() {
   return (
