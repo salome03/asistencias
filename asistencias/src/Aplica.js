@@ -14,6 +14,7 @@ function App() {
                 <NavLink to='/registro'><BotonLogin texto='Registrarse' /></NavLink>
                 <Routes>
                     <Route path='/login' element={<Login />}></Route>
+                    <Route path='/registro' element={<Registro/>}></Route>
                 </Routes>
             </BrowserRouter>
         </div>
