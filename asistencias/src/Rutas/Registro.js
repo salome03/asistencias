@@ -26,4 +26,8 @@ const Registro = () => {
             }
         })
     }
+
+    return(
+        
+    )
 }
