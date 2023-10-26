@@ -9,6 +9,9 @@ function App() {
     return (
         <div>
              <LogoApp/>
+             <BrowserRouter>
+             </BrowserRouter>
         </div>
+        
     )
 }
