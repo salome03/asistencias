@@ -30,7 +30,8 @@ const Registro = () => {
     return(
         <div className="form-registro">
              <form onSubmit={Datos}>
-                
+             <label for="correo">Correo electrónico</label>
+             
              </form>
         </div>
     )
