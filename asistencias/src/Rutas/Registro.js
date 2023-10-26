@@ -21,6 +21,9 @@ const Registro = () => {
             if(error.code === 'auth/invalid-email'){
                 alert("Ingrese un correo electrónico válido");
             }
+            else{
+                
+            }
         })
     }
 }
