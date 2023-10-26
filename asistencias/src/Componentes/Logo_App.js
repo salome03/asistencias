@@ -8,3 +8,4 @@ const LogoApp = () => {
         </div>
     )
 }
+export default LogoApp;
