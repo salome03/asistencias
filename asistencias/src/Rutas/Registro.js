@@ -22,7 +22,7 @@ const Registro = () => {
                 alert("Ingrese un correo electrónico válido");
             }
             else{
-                
+                alert("Por favor, complete los campos correctamente");
             }
         })
     }
