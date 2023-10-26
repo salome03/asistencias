@@ -11,6 +11,8 @@ function App() {
              <LogoApp/>
              <BrowserRouter>
              <NavLink to='/login'><BotonLogin texto='Iniciar sesión'/></NavLink>
+             <NavLink to='/registro'><BotonLogin texto='Registrarse'/></NavLink>
+             
              </BrowserRouter>
         </div>
         
