@@ -29,7 +29,9 @@ const Registro = () => {
 
     return(
         <div className="form-registro">
-
+             <form onSubmit={Datos}>
+                
+             </form>
         </div>
     )
 }
