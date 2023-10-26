@@ -28,6 +28,8 @@ const Registro = () => {
     }
 
     return(
-        
+        <div className="form-registro">
+
+        </div>
     )
 }
