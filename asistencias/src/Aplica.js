@@ -7,6 +7,8 @@ import { BrowserRouter, Link, Route, Routes, NavLink } from 'react-router-dom';
 
 function App() {
     return (
-        
+        <div>
+            
+        </div>
     )
 }
