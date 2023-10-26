@@ -8,15 +8,15 @@ import { BrowserRouter, Link, Route, Routes, NavLink } from 'react-router-dom';
 function App() {
     return (
         <div>
-             <LogoApp/>
-             <BrowserRouter>
-             <NavLink to='/login'><BotonLogin texto='Iniciar sesión'/></NavLink>
-             <NavLink to='/registro'><BotonLogin texto='Registrarse'/></NavLink>
-             <Routes>
-                
-             </Routes>
-             </BrowserRouter>
+            <LogoApp />
+            <BrowserRouter>
+                <NavLink to='/login'><BotonLogin texto='Iniciar sesión' /></NavLink>
+                <NavLink to='/registro'><BotonLogin texto='Registrarse' /></NavLink>
+                <Routes>
+                    <Route path='/login' element={<Login />}></Route>
+                </Routes>
+            </BrowserRouter>
         </div>
-        
+
     )
 }
