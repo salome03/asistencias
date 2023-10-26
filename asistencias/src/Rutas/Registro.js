@@ -37,8 +37,10 @@ const Registro = () => {
              <label for="pass">Contraseña</label>
              <input id="pass" type="password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
              <input id="enviar" type="submit" value="Registrarse"></input>
-             
+
              </form>
         </div>
+
     )
 }
+export default Registro;
