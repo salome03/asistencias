@@ -19,6 +19,8 @@ const menuItems = [
     {
         name: "Favorito",
         icon: "favorite",
-      },
+    },
 
-]
+];
+const Icon = ({ icon }: { icon: string }) => (
+);
