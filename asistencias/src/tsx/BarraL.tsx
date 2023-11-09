@@ -14,7 +14,7 @@ const menuItems = [
     },
     {
         name: "Agregar ",
-        
+        icon: "add_box",
     },
 
 ]
