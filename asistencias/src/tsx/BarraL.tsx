@@ -6,5 +6,6 @@ import { Carousel as ReactCarousel } from 'react-responsive-carousel';
 const menuItems = [
     {
         name: "Home",
+        icon: "home",
       },
 ]
