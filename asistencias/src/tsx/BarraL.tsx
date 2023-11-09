@@ -11,6 +11,10 @@ const menuItems = [
     {
         name: "Curso",
         icon: "dashboard",
-      },
+    },
+    {
+        name: "Agregar ",
+        
+    },
 
 ]
