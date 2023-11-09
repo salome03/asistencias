@@ -7,5 +7,10 @@ const menuItems = [
     {
         name: "Home",
         icon: "home",
+    },
+    {
+        name: "Curso",
+       
       },
+
 ]
