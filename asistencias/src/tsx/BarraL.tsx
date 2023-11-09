@@ -18,7 +18,7 @@ const menuItems = [
     },
     {
         name: "Favorito",
-       
+        icon: "favorite",
       },
 
 ]
