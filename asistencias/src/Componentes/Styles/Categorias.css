@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  width: 100%; /* Ancho al 100% del contenedor padre */
+}
+
+.genre-box {
+  width: 120px; /* Aumentar el ancho */
+  height: 120px; /* Aumentar la altura */
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  line-height: 120px; /* Ajustar el line-height para centrar verticalmente el texto */
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.genre-box:hover {
+  transform: scale(1.1);
+  background-color: #e74c3c;
+}
+
+.mystery {
+  background-color: #3498db;
+}
+
+.romance {
+  background-color: #e74c3c;
+}
+
+.fantasy {
+  background-color: #2ecc71;
+}
+
+.scifi {
+  background-color: #f1c40f;
+}
+
+.thriller {
+  background-color: #9b59b6;
+}

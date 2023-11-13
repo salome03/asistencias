@@ -1,0 +1,28 @@
+/* Estilo para el contenedor de la portada del libro */
+div {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho del contenedor */
+    margin: 0 auto;/* Centrar horizontalmente */
+    text-align: center; 
+  }
+  /* Estilo para el título del libro */
+  h2 {
+    color: #333; /* Color de texto oscuro */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  /* Estilo para la imagen de la portada del libro */
+  img {
+    max-width: 100%; /* Ajustar imagen al ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin-bottom: 15px;
+  }
+  /* Estilo para los párrafos de información del libro */
+  p {
+    font-size: 16px;
+    color: #555; /* Color de texto gris */
+    margin-bottom: 10px;
+  }

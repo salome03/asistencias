@@ -1,11 +1,14 @@
 .logo{
-    margin: 20px;
+    margin: 10px;
+    padding-left: 40px;
 }
+
 .logo img{
     width: 260px;
-    border-radius: 15px;
+    border-radius: 35px;
     transition: all 1s ease;
 }
+
 .logo img:hover{
     transform: scale(1.05);
 }

@@ -1,13 +1,51 @@
-.boton{
-    width: max-content;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+body{
+    background-color: #ffffff;
 }
-.boton input{
-    margin-top: 5px;
-    width: 120px;
+.form{
+    width: min-content;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 46px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  14px 14px 29px #5c5c5c,
+                 -14px -14px 29px #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+input{
+    width: 250px;
     height: 30px;
-    background-color: rgb(50, 50, 50);
-    color: white;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
 }
-.boton:hover{
-    opacity: 85%;
+
+#enviar{
+    width: 80px;
+    height: 25px;
+    border-color: rgb(255, 217, 147);
+    background-color: rgb(255, 217, 147);
+    color: rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+    border-radius: 25px;
+    margin-left: 95px;
+    margin-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+    padding: 2px;
+}
+
+#enviar:hover{
+    transform: scale(1.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.botones button{
+    margin-top: 5px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: 'Raleway', sans-serif;
 }

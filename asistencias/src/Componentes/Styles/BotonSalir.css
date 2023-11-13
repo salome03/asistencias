@@ -1,0 +1,11 @@
+.salir button{
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.salir button:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.15s;
+}

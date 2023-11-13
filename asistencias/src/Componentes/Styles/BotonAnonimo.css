@@ -1,9 +1,11 @@
-.boton-google button{
+.boton-anonimo button{
     background-color: white;
     height: 30px;
     width: 250px;
 }
-.boton-google img{
+
+.boton-anonimo img{
     height: 15px;
     width: 15px;
+    float: left;
 }
